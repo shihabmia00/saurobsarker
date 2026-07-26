@@ -68,8 +68,8 @@ export default function AboutPage() {
                       transition={{ delay: 0.2 }}
                       className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter"
                     >
-                      NILOY<br />
-                      <span className="text-blue-500">BHOWMICK</span>
+                      SAURAB<br />
+                      <span className="text-blue-500">SARKER</span>
                     </m.div>
                     <div className="h-1 w-16 md:w-20 bg-purple-500 mt-4 rounded-full" />
                     <p className="text-gray-300 mt-4 text-xs md:text-sm font-medium tracking-wide uppercase">
@@ -96,7 +96,7 @@ export default function AboutPage() {
               header={
                 <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-black to-neutral-900 border border-white/10 flex flex-col items-center justify-center relative overflow-hidden group-hover:border-emerald-500/30 transition-colors py-8 md:py-0">
                   <div className="absolute inset-0 bg-emerald-500/5 blur-3xl rounded-full" />
-                  <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-emerald-400 to-emerald-900 z-10">5+</span>
+                  <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-emerald-400 to-emerald-900 z-10">1+</span>
                   <div className="text-emerald-500/50 text-xs font-mono uppercase tracking-[0.2em] z-10 mt-2">Years Active</div>
                 </div>
               }
