@@ -16,13 +16,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
-    template: "%s | Niloy Bhowmick",
+    default: "Saurob Sarker – Video Editor & Motion Graphics Designer",
+    template: "%s | Saurob Sarker",
   },
   description:
-    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Niloy Bhowmick specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
+    "Turning raw footage into visual stories — with style, precision, and a touch of cinematic magic. Saurob Sarker specializes in DaVinci Resolve, Premiere Pro, and After Effects — delivering cinematic edits, motion graphics, and polished storytelling.",
   keywords: [
-    "Niloy Bhowmick",
+    "Saurob Sarker",
     "Video Editor",
     "Motion Graphics Designer",
     "DaVinci Resolve",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     "Lower Thirds",
     "Audio Sync",
   ],
-  authors: [{ name: "Niloy Bhowmick", url: "https://www.itsniloy.me" }],
-  creator: "Niloy Bhowmick",
-  publisher: "Niloy Bhowmick",
+  authors: [{ name: "Saurob Sarker", url: "https://www.itsniloy.me" }],
+  creator: "Saurob Sarker",
+  publisher: "Saurob Sarker",
   robots: {
     index: true,
     follow: true,
@@ -57,33 +57,33 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.itsniloy.me",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    url: "saurobsarker.vercel.app",
+    title: "Saurob Sarker – Video Editor & Motion Graphics Designer",
     description:
       "Passionate Video Editor and Motion Graphics Designer delivering clean, cinematic edits and dynamic visual storytelling using DaVinci Resolve, Premiere Pro, and After Effects.",
-    siteName: "Niloy Bhowmick Portfolio",
+    siteName: "Saurob Sarker Portfolio",
     images: [
       {
-        url: "/niloybhowmick.png",
+        url: "/saurobsarker.png",
         width: 1200,
         height: 630,
-        alt: "Niloy Bhowmick - Video Editor",
+        alt: "Saurob Sarker - Video Editor",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Niloy Bhowmick – Video Editor & Motion Graphics Designer",
+    title: "Saurob Sarker – Video Editor & Motion Graphics Designer",
     description:
       "Crafting cinematic edits, motion graphics, and powerful stories. Let's make your content stand out.",
-    creator: "@niloy_bhowmick", // update if you have a real Twitter handle
-    images: ["/niloybhowmick.png"],
+    creator: "@saurob_sarker", // update if you have a real Twitter handle
+    images: ["/saurobsarker.png"],
   },
   verification: {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://www.itsniloy.me",
+    canonical: "saurobsarker.vercel.app",
   },
   category: "Video Editing",
 };
@@ -105,7 +105,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Niloy Bhowmick",
+              name: "Saurob Sarker",
               url: "https://www.itsniloy.me",
               image: "/niloybhowmick.png",
               sameAs: [
