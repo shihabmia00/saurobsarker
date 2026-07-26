@@ -172,9 +172,9 @@ export default function AboutPage() {
               description=""
               header={
                 <div className="flex flex-1 h-full w-full items-center justify-between px-6 bg-gradient-to-r from-neutral-900 to-neutral-800 rounded-xl border border-white/5 py-4 md:py-0 min-h-[5rem]">
-                  <a href="https://linkedin.com/in/niloy-bhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-[#0077b5] hover:scale-110 transition-all duration-300 text-white"><Linkedin size={20} /></a>
-                  <a href="https://instagram.com/its.niloybhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-pink-600 hover:scale-110 transition-all duration-300 text-white"><Instagram size={20} /></a>
-                  <a href="https://youtube.com/@itsniloybhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-red-600 hover:scale-110 transition-all duration-300 text-white"><Youtube size={20} /></a>
+                  <a href="https://www.linkedin.com/in/saurav-speaks" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-[#0077b5] hover:scale-110 transition-all duration-300 text-white"><Linkedin size={20} /></a>
+                  <a href="https://www.instagram.com/saurav__speaks" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-pink-600 hover:scale-110 transition-all duration-300 text-white"><Instagram size={20} /></a>
+                  <a href="https://www.youtube.com/@Saurav_Speaks" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-red-600 hover:scale-110 transition-all duration-300 text-white"><Youtube size={20} /></a>
                 </div>
               }
               className="h-full"
